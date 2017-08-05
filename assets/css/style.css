@@ -31,6 +31,23 @@
 	float: right;
 }
 
+.main-bio, .sidebar {
+	background-color: white;
+}
+
+.hangman, .rpg {
+	height: 150px;
+	width: 150px;
+}
+
+.hangman {
+	background-image: url(../images/hangman.jpg);
+}
+
+.rpg {
+	background-image: url(../images/rpg.jpg);
+}
+
 body {
 	background-image: url(../images/concrete-texture.png);
 }
