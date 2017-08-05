@@ -2,6 +2,45 @@
 	background-color: white;
 }
 
-.navbar-header {
+.setu-name {
 	background-color: #4aaaa5;
+	text-align: center;
+	line-height: 45px;
+	height: 50px;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: large;
+	font-weight: bold;
+}
+
+#bio-image {
+	float: left;
+	margin-right: 20px;
+}
+
+#social-image {
+	height: 50px;
+	width: 50px;
+}
+
+.main-bio {
+	float: left;
+}
+
+.sidebar {
+	float: right;
+}
+
+body {
+	background-image: url(../images/concrete-texture.png);
+}
+
+footer {
+	background-color: #666666;
+	color: #BDC3C7;
+	border-top: 5px solid #4aaaa5;
+	height: 100px;
+	text-align: center;
+	line-height: 90px;
+	clear: both;
 }
