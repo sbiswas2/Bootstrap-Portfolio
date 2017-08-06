@@ -36,6 +36,8 @@ h2, h3 {
 	color: #4aaaa5;
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 }
 
 .main-bio {
@@ -54,9 +56,17 @@ h2, h3 {
 	height: 200px;
 }
 
+.btn {
+	background-color: #4aaaa5;
+	margin-bottom: 20px;
+}
+
 .hangman, .rpg, .trivia, .rutgers, .rock {
-	height: 175px;
-	width: 175px;
+	height: 200px;
+	width: 200px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding: 0px;
 }
 
 .hangman {
@@ -82,6 +92,17 @@ h2, h3 {
 .rock {
 	background-image: url(../images/tv.jpg);
 	background-size: 100% 100%;
+}
+
+.text-box {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	line-height: 50px;
+	margin-top: 140px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 body {
