@@ -35,17 +35,34 @@
 	background-color: white;
 }
 
-.hangman, .rpg {
-	height: 150px;
-	width: 150px;
+.hangman, .rpg, .trivia, .rutgers, .rock {
+	height: 175px;
+	width: 175px;
 }
 
 .hangman {
 	background-image: url(../images/hangman.jpg);
+	background-size: 100% 100%;
 }
 
 .rpg {
 	background-image: url(../images/rpg.jpg);
+	background-size: 100% 100%;
+}
+
+.trivia {
+	background-image: url(../images/trivia.jpg);
+	background-size: 100% 100%;	
+}
+
+.rutgers {
+	background-image: url(../images/rutgers.jpg);
+	background-size: 100% 100%;
+}
+
+.rock {
+	background-image: url(../images/tv.jpg);
+	background-size: 100% 100%;
 }
 
 body {
