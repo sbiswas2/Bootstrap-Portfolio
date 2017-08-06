@@ -16,11 +16,26 @@
 #bio-image {
 	float: left;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 #social-image {
 	height: 50px;
 	width: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.row {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
 }
 
 .main-bio {
@@ -33,6 +48,10 @@
 
 .main-bio, .sidebar {
 	background-color: white;
+}
+
+#exampleInputMessage1 {
+	height: 200px;
 }
 
 .hangman, .rpg, .trivia, .rutgers, .rock {
@@ -73,6 +92,7 @@ footer {
 	background-color: #666666;
 	color: #BDC3C7;
 	border-top: 5px solid #4aaaa5;
+	margin-top: 40px;
 	height: 100px;
 	text-align: center;
 	line-height: 90px;
