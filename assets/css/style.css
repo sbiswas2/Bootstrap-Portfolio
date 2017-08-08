@@ -119,3 +119,48 @@ footer {
 	line-height: 90px;
 	clear: both;
 }
+
+/*Media Queries*/
+@media screen and (max-width: 1199px) {
+	.hangman, .rpg, .trivia, .rutgers, .rock {
+		margin-left: 60px;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+	.hangman, .rpg, .trivia, .rutgers, .rock {
+		margin: 0 0 20px 100px;
+		float: left;
+}
+
+	.main-bio {
+		width: 100%;
+}
+	.sidebar {
+		float: left;
+		margin-top: 30px;
+	}
+
+}
+
+@media screen and (max-width: 669px) {
+	.hangman, .rpg, .trivia, .rutgers, .rock {
+		margin-left: 60px;
+	}
+
+}
+
+@media screen and (max-width: 669px) {
+	.hangman, .rpg, .trivia, .rutgers, .rock {
+		margin-left: 30px;
+	}
+
+}
+
+@media screen and (max-width: 517px) {
+	.sidebar {
+		float: left;
+}
+
+}
